@@ -1,7 +1,7 @@
 html, body{
     height: 100%;
     margin: 0;
-    background: url(../website/image/doge.jpg) no-repeat center center fixed;
+    background: url(../website_try/image/doge.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -15,7 +15,8 @@ html, body{
 }
 
 .content_inside{
-    padding: 40px 20px 40px;
+    padding: 40px 20px 150px;
+    position: relative;
 
     background: rgba(0,0,0,0.2);
     color: white;
@@ -28,8 +29,15 @@ html, body{
     border-radius: 50%;
     height: auto;
     width: 200px;
-    margin-left: 300px;
+    position: absolute;
+    right: 10px;
+    top: 50px;
 }
+
+.personal_info{
+    padding-right: 200px;
+}
+
 
 .footer{
     height: auto;
@@ -40,14 +48,14 @@ html, body{
 }
 
 .line_break{
-    width: 400px;
+    width: 500px;
     margin: 0 auto;
-    border-top: 1px solid white;
+    border-top: 1px solid black;
 }
 
 .contact_me a{
     font-size: 40px;
-    color: white;
+    color: black;
 }
 
 .copyright{
