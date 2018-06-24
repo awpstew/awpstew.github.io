@@ -54,6 +54,14 @@ html, body{
     margin: 0 auto;
     border-top: 1.1px solid black;
 }
+.hover_animation{
+    transition: transform .2s;
+}
+
+.hover_animation:hover {
+    transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    color: rgba(255,250,225,1);
+}
 
 .contact_me a{
     font-size: calc(30px + 1vw);
