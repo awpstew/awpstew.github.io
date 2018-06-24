@@ -1,7 +1,7 @@
 html, body{
     height: 100%;
     margin: 0;
-    background: url(../website_try/image/doge.jpg) no-repeat center center fixed;
+    //background: url(../website_try/image/doge.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -12,6 +12,35 @@ html, body{
 .content{
     min-height: 100%;
     overflow: auto;
+}
+
+.nav_header{
+    margin: 0px;
+    position: relative;
+}
+
+h1{
+    margin-left: 60px;
+}
+
+.header_links{
+    font-size: calc(20px+15vw);
+    top: 0;
+    width:300px;
+    right:0;
+    bottom: 0;
+    position:absolute;
+    margin: 0px;
+}
+
+.header_links li{
+    display: inline;
+    padding: 5px;
+}
+
+.header_links a{
+    color: black;
+    text-decoration: none;
 }
 
 .content_inside{
@@ -45,6 +74,7 @@ html, body{
     margin-top: -50px;
     text-align: center;
     padding: 0px;
+    overflow: hidden;
 }
 
 .line_break{
