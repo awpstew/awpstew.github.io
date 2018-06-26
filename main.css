@@ -1,7 +1,6 @@
 html, body{
     height: 100%;
     margin: 0;
-    font-family: "Trebuchet MS", Helvetica, sans-serif;
     background: url(../awpstew.github.io/image/background.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -14,7 +13,6 @@ html, body{
 .content{
     min-height: 100%;
     overflow: auto;
-    position: relative;
 }
 
 .content_inside{
